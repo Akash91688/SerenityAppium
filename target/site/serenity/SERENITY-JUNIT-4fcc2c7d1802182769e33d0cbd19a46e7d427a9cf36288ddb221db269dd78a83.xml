@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="testcases.TestNativeApp" skipped="0" tests="1" time="4.59" timestamp="2020-06-29 02:36:08"><testcase classname="testcases.TestNativeApp" name="Nativeapp test"><error message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-1BDQC6B', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:/workspaces/SerenityBDDFr..., appActivity: org.wordpress.android.ui.WP..., appPackage: org.wordpress.android, databaseEnabled: false, desired: {app: D:/workspaces/SerenityBDDFr..., appActivity: org.wordpress.android.ui.WP..., appPackage: org.wordpress.android, deviceName: andriod, hub: http://127.0.0.1:4723/wd/hub, loggingPrefs: {}, platformName: android, platformVersion: 9.0}, deviceApiLevel: 28, deviceManufacturer: vivo, deviceModel: vivo 1818, deviceName: 8e006adb, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: 8e006adb, hub: http://127.0.0.1:4723/wd/hub, javascriptEnabled: true, locationContextEnabled: false, loggingPrefs: org.openqa.selenium.logging..., networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2130, left: 0, top: 84, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: 9fd2452c-3fca-4bbd-8b17-618fd4494835&#10;*** Element info: {Using=xpath, value=//android.widget.EditText}" type="org.openqa.selenium.NoSuchElementException">An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1BDQC6B', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:/workspaces/SerenityBDDFr..., appActivity: org.wordpress.android.ui.WP..., appPackage: org.wordpress.android, databaseEnabled: false, desired: {app: D:/workspaces/SerenityBDDFr..., appActivity: org.wordpress.android.ui.WP..., appPackage: org.wordpress.android, deviceName: andriod, hub: http://127.0.0.1:4723/wd/hub, loggingPrefs: {}, platformName: android, platformVersion: 9.0}, deviceApiLevel: 28, deviceManufacturer: vivo, deviceModel: vivo 1818, deviceName: 8e006adb, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: 8e006adb, hub: http://127.0.0.1:4723/wd/hub, javascriptEnabled: true, locationContextEnabled: false, loggingPrefs: org.openqa.selenium.logging..., networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2130, left: 0, top: 84, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 9fd2452c-3fca-4bbd-8b17-618fd4494835
+*** Element info: {Using=xpath, value=//android.widget.EditText}</error><system-err>An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1BDQC6B', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:/workspaces/SerenityBDDFr..., appActivity: org.wordpress.android.ui.WP..., appPackage: org.wordpress.android, databaseEnabled: false, desired: {app: D:/workspaces/SerenityBDDFr..., appActivity: org.wordpress.android.ui.WP..., appPackage: org.wordpress.android, deviceName: andriod, hub: http://127.0.0.1:4723/wd/hub, loggingPrefs: {}, platformName: android, platformVersion: 9.0}, deviceApiLevel: 28, deviceManufacturer: vivo, deviceModel: vivo 1818, deviceName: 8e006adb, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: 8e006adb, hub: http://127.0.0.1:4723/wd/hub, javascriptEnabled: true, locationContextEnabled: false, loggingPrefs: org.openqa.selenium.logging..., networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2130, left: 0, top: 84, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 9fd2452c-3fca-4bbd-8b17-618fd4494835
+*** Element info: {Using=xpath, value=//android.widget.EditText}&#13;
+io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)&#13;
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)&#13;
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)&#13;
+io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)&#13;
+io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)&#13;
+io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)&#13;
+io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)&#13;
+io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)&#13;
+io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)&#13;
+io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)&#13;
+io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)&#13;
+io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)&#13;
+io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)&#13;
+testcases.TestNativeApp.nativeappTest(TestNativeApp.java:34)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+</system-err></testcase></testsuite>
